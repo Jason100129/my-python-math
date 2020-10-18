@@ -1,7 +1,9 @@
 e = 2.718281828459045
+pi = 3.141592653589793
+
 class my_math:
-    pi = 3.141592653589793
-    e = 2.718281828459045
+    global e
+    global pi
     def ceil(self, x):
         if x == int(x):
             return x
@@ -18,4 +20,5 @@ class my_math:
          
 math = my_math()
 
-#未完成
+
+

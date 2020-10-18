@@ -16,7 +16,7 @@ class my_math:
     def pow(self, x, y):
         return x**y
     def exp(self, x):
-        return e*x
+        return e**x
          
 math = my_math()
 

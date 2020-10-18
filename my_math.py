@@ -17,6 +17,8 @@ class my_math:
         return x**y
     def exp(self, x):
         return e**x
+    def expm1(self, x):
+        return e**x-1
          
 math = my_math()
 

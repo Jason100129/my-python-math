@@ -19,8 +19,9 @@ class my_math:
         return e**x
     def expm1(self, x):
         return e**x-1
-         
-math = my_math()
+if __name__ == '__name__':
+    math = my_math()
+
 
 
 

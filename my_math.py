@@ -19,7 +19,19 @@ class my_math:
         return e**x
     def expm1(self, x):
         return e**x-1
-if __name__ == '__name__':
+    def fabs(self, x):
+        if x > 0:
+            return float(x)
+        elif x < 0:
+            x = str(x)
+            x = list(x)
+            x.pop(0)
+            y = x[0]
+            return float(y)
+        else:
+            return 0
+        
+if __name__ == '__main__':
     math = my_math()
 
 

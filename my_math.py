@@ -26,7 +26,7 @@ class my_math:
             x = 0 - x
             return float(x)
         else:
-            return 0
+            return 0      
         
 if __name__ == '__main__':
     math = my_math()

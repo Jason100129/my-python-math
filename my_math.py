@@ -23,11 +23,8 @@ class my_math:
         if x > 0:
             return float(x)
         elif x < 0:
-            x = str(x)
-            x = list(x)
-            x.pop(0)
-            y = x[0]
-            return float(y)
+            x = 0 - x
+            return float(x)
         else:
             return 0
         

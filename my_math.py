@@ -29,7 +29,9 @@ class my_math:
             return 0
     def ldexp(self, x, i):
         return float(x*(2**i))
-        
+    def radians(self, x):
+        return float(x/180*pi)
+    
 if __name__ == '__main__':
     math = my_math()
 

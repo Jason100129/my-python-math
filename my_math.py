@@ -27,6 +27,8 @@ class my_math:
             return float(x)
         else:
             return 0
+    def ldexp(self, x, i):
+        return float(x*(2**i))
         
 if __name__ == '__main__':
     math = my_math()

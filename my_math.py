@@ -31,6 +31,22 @@ class my_math:
         return float(x*(2**i))
     def radians(self, x):
         return float(x/180*pi)
+    def isnan(self, x):
+        if x != x:
+            return True
+        else:
+            return False
+    def isinf(self, x):
+        if x - x != x - x:
+            return True
+        else:
+            return False
+    def isfinite(self, x):
+        if x - x != x - x:
+            return False
+        else:
+            return True
+        
     
 if __name__ == '__main__':
     math = my_math()

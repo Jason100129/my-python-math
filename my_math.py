@@ -46,7 +46,19 @@ class my_math:
             return False
         else:
             return True
-        
+    def gcd(self, x, y):
+        if x < y:
+            i = x
+            while i >= 1:
+                if x%i == 0 and y%i == 0:
+                    return i
+                i -= 1
+        else:
+            i = y
+            while i >= 1:
+                if x%i == 0 and y%i == 0:
+                    return i
+                i -= 1        
     
 if __name__ == '__main__':
     math = my_math()

@@ -58,7 +58,10 @@ class my_math:
             while i >= 1:
                 if x%i == 0 and y%i == 0:
                     return i
-                i -= 1        
+                i -= 1
+    def trunc(self, x):
+        return x.__trunc__()
+               
     
 if __name__ == '__main__':
     math = my_math()
